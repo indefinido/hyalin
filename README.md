@@ -1,4 +1,4 @@
-= Hyalin (paper)
+## Hyalin (paper)
 
 A Rails 3+ Engine providing a basic contact form.
 
