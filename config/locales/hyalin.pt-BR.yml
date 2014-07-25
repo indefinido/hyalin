@@ -1,0 +1,27 @@
+pt-BR:
+  activerecord:
+    models:
+      hyalin/message:
+        one: Mensagem de Contato
+        other: Mensagens de Contato
+    attributes:
+      timestamps: &timestamps
+        created_at: Criado Em
+        updated_at: Atualizado Em
+      hyalin/message:
+        <<: *timestamps
+        name: Nome
+        body: Mensagem
+  hyalin:
+    postman:
+      hyalin_email:
+        sent_by_name: 'Enviado por:'
+    messages:
+      sent_success: Mensagem enviada!
+      new: &hyalin-message
+        title: Contate-nos
+        name: Nome
+        message: Mensagem
+        submit: Enviar Mensagem
+      new_simple_form:
+        <<: *hyalin-message

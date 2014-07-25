@@ -1,0 +1,12 @@
+en:
+  hyalin:
+    messages:
+      sent_success: Message delivered!
+      new: &hyalin-message
+        title: Contact Us
+        submit: Send Message
+      new_simple_form:
+        <<: *hyalin-message
+    hyalin_email:
+      postman:
+        sent_by_name: 'Sent By:'
