@@ -1,13 +1,13 @@
 ## Hyalin (paper)
 
-A Rails 3+ Engine providing a basic contact form.
+A Rails 4+ Engine providing a basic contact form.
 
 ## Requirements
 
 Hyalin requires:
 
-* Ruby >= 1.9.3
-* Rails >= 3.0.0
+* Ruby >= 2.0.0
+* Rails >= 4.0.0
 
 It is also recommended to use SimpleForm in order to hook into your apps custom form builders.
 Heavily inspired on [jdutil/contact_us](https://github.com/jdutil/contact_us)
