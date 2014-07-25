@@ -1,0 +1,2 @@
+class HyalinController < ::ApplicationController
+end

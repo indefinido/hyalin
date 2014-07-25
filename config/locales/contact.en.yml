@@ -1,0 +1,14 @@
+en:
+  hyalin:
+    messages:
+      sent_success: Message delivered!
+      new: &hyalin-message
+        title: Hyalin Us
+        submit: Send Message
+      new_formtastic:
+        <<: *hyalin-message
+      new_simple_form:
+        <<: *hyalin-message
+    hyalin_email:
+      postman:
+        sent_by_name: 'Enviado por:'

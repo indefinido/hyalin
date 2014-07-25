@@ -1,0 +1,10 @@
+pt-BR:
+  hyalin:
+    messages:
+      sent_success: Mensagem enviada!
+      new: &hyalin-message
+        title: Contate-nos
+        submit: Enviar mensagem
+      new_formtastic:
+        <<: *hyalin-message
+      new_simple_form:

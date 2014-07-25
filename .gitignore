@@ -1,0 +1,40 @@
+# Mac OS X Files
+.DS_Store
+
+# Bundler
+.bundle
+Gemfile.lock
+
+# Password and Secured Related
+db/*.sqlite3
+config/database.yml
+
+
+# Monitoring files
+log/*
+tmp/**/*
+uploads/*
+
+# Run Commands Files
+.rvmrc
+.powrc
+
+# Vendor and Data files
+public/uploads/*
+public/clicktale/*
+
+# Dummy app specific
+.bundle/
+log/*.log
+pkg/
+test/dummy/db/*.sqlite3
+test/dummy/log/*.log
+test/dummy/tmp/
+test/dummy/.sass-cache
+test/dummy/public/uploads/*
+test/dummy/config/initializers/smtp.rb
+
+
+# Emacs Temporary Files
+*~
+*#
