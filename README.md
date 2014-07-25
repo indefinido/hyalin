@@ -17,7 +17,7 @@ Heavily inspired on [jdutil/contact_us](https://github.com/jdutil/contact_us)
 In your `Gemfile`, add the following dependencies:
 
 ```ruby
-gem hyalin', '~> 0.1.0'
+gem 'hyalin', '~> 0.1.0'
 ```
 
 From `Rails.root` in your Terminal run:
