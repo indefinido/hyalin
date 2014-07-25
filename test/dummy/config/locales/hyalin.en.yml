@@ -3,7 +3,7 @@ en:
     messages:
       sent_success: Message delivered!
       new: &hyalin-message
-        title: Hyalin Us
+        title: Contact Us
         submit: Send Message
       new_simple_form:
         <<: *hyalin-message

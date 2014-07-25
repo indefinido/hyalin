@@ -1,5 +1,5 @@
 pt-BR:
-  activerecord:
+  mongoid:
     models:
       hyalin/message:
         one: Mensagem de Contato
@@ -12,10 +12,15 @@ pt-BR:
         <<: *timestamps
         name: Nome
         body: Mensagem
+        email: Email
+        phone: Telefone
+        subject: Assunto
+
   hyalin:
     postman:
-      hyalin_email:
-        sent_by_name: 'Enviado por:'
+      contact_email:
+        subject: 'Contato: %{name}'
+        sent_by_name: 'Enviado por %{name} de %{email} (%{phone})'
     messages:
       sent_success: Mensagem enviada!
       new: &hyalin-message

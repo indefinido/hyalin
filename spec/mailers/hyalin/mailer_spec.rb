@@ -1,8 +1,8 @@
 require "spec_helper"
 
 describe Mailer do
-  describe "hyalin_email" do
-    let(:mail) { Mailer.hyalin_email }
+  describe "contact_email" do
+    let(:mail) { Mailer.contact_email }
 
     it "renders the headers" do
       mail.subject.should eq("Hyalin email")

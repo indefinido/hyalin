@@ -14,12 +14,12 @@ module Hyalin
     # messages
 
     if Hyalin.persist_messages
-      validate :persisted?, :message => 'Can\'t update hyalin messages!'
+      validate :persisted?, :message => 'Can\'t update contact messages!'
     end
 
     def save
       if self.valid?
-        Hyalin::Postman.hyalin_email(self).deliver
+        Hyalin::Postman.contact_email(self).deliver
         super if Hyalin.persist_messages
         return true
 

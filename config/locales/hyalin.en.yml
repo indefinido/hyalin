@@ -1,12 +1,34 @@
 en:
+  mongoid:
+    models:
+      hyalin/message:
+        one: Contact Message
+        other: Contact Messages
+    attributes:
+      timestamps: &timestamps
+        created_at: Created At
+        updated_at: Updated At
+      hyalin/message:
+        <<: *timestamps
+        name: Name
+        body: Message
+        email: Email
+        phone: Phone
+        subject: Subject
+
   hyalin:
+    postman:
+      contact_email:
+        subject: 'Contact: %{name}'
+        sent_by_name: "Sent by %{name} from %{email} (%{phone})"
     messages:
       sent_success: Message delivered!
       new: &hyalin-message
         title: Contact Us
         submit: Send Message
+        message: Message
+        submit: Send Message
       new_simple_form:
         <<: *hyalin-message
-    hyalin_email:
-      postman:
-        sent_by_name: 'Sent By:'
+
+
