@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.summary     = "Simple contact form engine"
   s.description = "Integrated and overridable hyalin form generation"
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["WTFPLICENSE", "Rakefile", "README.md"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["WTFP-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.2.8"
